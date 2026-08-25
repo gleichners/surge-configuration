@@ -1,0 +1,194 @@
+# AI Services Rule Set
+# Format: Surge rule-set (no policy name)
+# Usage: RULE-SET,https://your-domain.com/rules/ai.list,Proxy
+# Last Updated: 2026-08-25
+
+# ─── OpenAI / ChatGPT ───────────────────────────────────
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+DOMAIN-SUFFIX,openai.azure.com
+DOMAIN-SUFFIX,auth0.openai.com
+
+# ─── Anthropic / Claude ─────────────────────────────────
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
+
+# ─── Google AI / Gemini ─────────────────────────────────
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,aistudio.google.com
+DOMAIN-SUFFIX,deepmind.com
+DOMAIN-SUFFIX,deepmind.google
+DOMAIN-SUFFIX,ai.google
+DOMAIN-SUFFIX,ai.google.dev
+DOMAIN-SUFFIX,generativelanguage.googleapis.com
+
+# ─── xAI / Grok ─────────────────────────────────────────
+DOMAIN-SUFFIX,x.ai
+DOMAIN-SUFFIX,grok.com
+
+# ─── Microsoft Copilot ──────────────────────────────────
+DOMAIN-SUFFIX,copilot.microsoft.com
+DOMAIN-SUFFIX,githubcopilot.com
+DOMAIN-SUFFIX,azure.ai
+DOMAIN-SUFFIX,azureopenai.com
+
+# ─── Meta AI ────────────────────────────────────────────
+DOMAIN-SUFFIX,meta.ai
+DOMAIN-SUFFIX,ai.meta.com
+
+# ─── Perplexity AI ──────────────────────────────────────
+DOMAIN-SUFFIX,perplexity.ai
+
+# ─── Mistral AI ─────────────────────────────────────────
+DOMAIN-SUFFIX,mistral.ai
+
+# ─── Hugging Face ───────────────────────────────────────
+DOMAIN-SUFFIX,huggingface.co
+DOMAIN-SUFFIX,hf.co
+
+# ─── Stability AI ───────────────────────────────────────
+DOMAIN-SUFFIX,stability.ai
+
+# ─── Midjourney ─────────────────────────────────────────
+DOMAIN-SUFFIX,midjourney.com
+
+# ─── Runway ML ──────────────────────────────────────────
+DOMAIN-SUFFIX,runwayml.com
+DOMAIN-SUFFIX,runway.com
+
+# ─── ElevenLabs ─────────────────────────────────────────
+DOMAIN-SUFFIX,elevenlabs.io
+
+# ─── Suno AI ────────────────────────────────────────────
+DOMAIN-SUFFIX,suno.ai
+DOMAIN-SUFFIX,suno.com
+
+# ─── Cohere ─────────────────────────────────────────────
+DOMAIN-SUFFIX,cohere.com
+DOMAIN-SUFFIX,cohere.ai
+
+# ─── Replicate ──────────────────────────────────────────
+DOMAIN-SUFFIX,replicate.com
+
+# ─── Together AI ────────────────────────────────────────
+DOMAIN-SUFFIX,together.ai
+
+# ─── Ollama ─────────────────────────────────────────────
+DOMAIN-SUFFIX,ollama.com
+DOMAIN-SUFFIX,ollama.ai
+
+# ─── Character.AI ───────────────────────────────────────
+DOMAIN-SUFFIX,character.ai
+
+# ─── Poe ────────────────────────────────────────────────
+DOMAIN-SUFFIX,poe.com
+
+# ─── Jasper AI ──────────────────────────────────────────
+DOMAIN-SUFFIX,jasper.ai
+
+# ─── Writesonic ─────────────────────────────────────────
+DOMAIN-SUFFIX,writesonic.com
+
+# ─── Notion AI ──────────────────────────────────────────
+DOMAIN-SUFFIX,notion.ai
+
+# ─── Grammarly ──────────────────────────────────────────
+DOMAIN-SUFFIX,grammarly.com
+DOMAIN-SUFFIX,grammarly.ai
+
+# ─── Luma AI ────────────────────────────────────────────
+DOMAIN-SUFFIX,lumalabs.ai
+
+# ─── Pika Labs ──────────────────────────────────────────
+DOMAIN-SUFFIX,pika.art
+
+# ─── Ideogram ───────────────────────────────────────────
+DOMAIN-SUFFIX,ideogram.ai
+
+# ─── Black Forest Labs / FLUX ───────────────────────────
+DOMAIN-SUFFIX,blackforestlabs.ai
+
+# ─── Cursor (AI Code Editor) ────────────────────────────
+DOMAIN-SUFFIX,cursor.sh
+DOMAIN-SUFFIX,cursor.com
+
+# ─── Windsurf / Codeium ─────────────────────────────────
+DOMAIN-SUFFIX,codeium.com
+DOMAIN-SUFFIX,windsurf.com
+
+# ─── Replit AI ──────────────────────────────────────────
+DOMAIN-SUFFIX,replit.com
+
+# ─── Vercel / v0 ────────────────────────────────────────
+DOMAIN-SUFFIX,v0.dev
+
+# ─── Groq (Inference) ───────────────────────────────────
+DOMAIN-SUFFIX,groq.com
+
+# ─── Fireworks AI ───────────────────────────────────────
+DOMAIN-SUFFIX,fireworks.ai
+
+# ─── Anyscale ───────────────────────────────────────────
+DOMAIN-SUFFIX,anyscale.com
+
+# ─── Weights & Biases ───────────────────────────────────
+DOMAIN-SUFFIX,wandb.ai
+
+# ─── LangChain / LangSmith ──────────────────────────────
+DOMAIN-SUFFIX,langchain.com
+DOMAIN-SUFFIX,langsmith.com
+
+# ─── Pinecone ───────────────────────────────────────────
+DOMAIN-SUFFIX,pinecone.io
+
+# ─── Weaviate ───────────────────────────────────────────
+DOMAIN-SUFFIX,weaviate.io
+
+# ─── Qdrant ─────────────────────────────────────────────
+DOMAIN-SUFFIX,qdrant.tech
+
+# ─── Zhipu AI (智谱) ────────────────────────────────────
+DOMAIN-SUFFIX,zhipuai.cn
+
+# ─── Moonshot AI (月之暗面) ──────────────────────────────
+DOMAIN-SUFFIX,moonshot.cn
+
+# ─── MiniMax ────────────────────────────────────────────
+DOMAIN-SUFFIX,minimax.chat
+
+# ─── DeepSeek ───────────────────────────────────────────
+DOMAIN-SUFFIX,deepseek.com
+DOMAIN-SUFFIX,deepseek.ai
+
+# ─── ByteDance / Doubao (豆包) ──────────────────────────
+DOMAIN-SUFFIX,doubao.com
+DOMAIN-SUFFIX,volcengine.com
+
+# ─── Alibaba / Tongyi (通义) ────────────────────────────
+DOMAIN-SUFFIX,tongyi.aliyun.com
+DOMAIN-SUFFIX,qwen.ai
+
+# ─── Baidu / Wenxin (文心) ──────────────────────────────
+DOMAIN-SUFFIX,yiyan.baidu.com
+
+# ─── 01.AI (零一万物) ───────────────────────────────────
+DOMAIN-SUFFIX,01.ai
+
+# ─── StepFun (阶跃星辰) ─────────────────────────────────
+DOMAIN-SUFFIX,stepfun.com
+
+# ─── Kimi ───────────────────────────────────────────────
+DOMAIN-SUFFIX,kimi.moonshot.cn
+
+# ─── General AI Keywords ────────────────────────────────
+DOMAIN-KEYWORD,openai
+DOMAIN-KEYWORD,chatgpt
+DOMAIN-KEYWORD,anthropic
+DOMAIN-KEYWORD,claude
+DOMAIN-KEYWORD,gemini
+DOMAIN-KEYWORD,copilot
+DOMAIN-KEYWORD,midjourney
+DOMAIN-KEYWORD,deepseek
